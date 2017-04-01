@@ -1,92 +1,77 @@
-.container {
-    width: 1920px;
-    margin: auto;
-    position: relative;
+.container{
+	margin: auto;
+	width: 1260px;
+	position: relative;
+	
+}
+/* -------------styling logo----------------*/
+
+.bologna{
+	display: block;
+	width: 240px;
+	height: 35px;
+	margin: auto;
+	margin-top: 65px;
+}
+.underlogo{
+	width: 230px;
+	height: 8px;
+	font-family: QuattrocentoSans;
+	color: #cdcdcd;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 36px;
+	transform: scale(1.001,1);
+	text-transform: uppercase;
+}
+.navigation{
+margin-top: 130px;
+	position: absolute;
+	z-index: 2;
+	margin-left: 320px;
+	}
+.navigation li{
+	display: inline-block;
+		margin-left: 20px;
 }
 
-.bologna {
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 840px;
-    top: 65.5px;
-    display: inline-block;
+/* ------all refs-------- */
+a{text-decoration: none;}
+/* --------- navigation style--------- */
+.bg{
+	margin-top: 100px;
+	width: 1920px;
+	height: 80px;
+	background-color: #ffffff;
+	box-shadow: 1px 3px 9.9px 0.1px rgba(206, 206, 206, 0.32);
+	position: relative;
+	min-width: 1260px;
+	padding-top: 15px;
+	}
+.follow li{ 
+	display: inline-block;
+	margin-left: 20px;
+	float: left;
 }
-
-.underlogo {
-    font-size: 12px;
-    font-family: "QuattrocentoSans";
-    color: rgb(204, 204, 204);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 3;
-    text-align: left;
-    display: inline-block;
-    text-decoration: none;
-    left: 840px;
-    top: 100px;
-    position: relative;
-}
-
-a {
-    text-decoration: none;
-}
-
-.bg {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 3px 9.9px 0.1px rgba(206, 206, 206, 0.32);
-    position: absolute;
-    top: 139px;
-    width: 1920px;
-    height: 80px;
-    margin-top: 30px;
-    padding-top: 35px
-}
-
-.follow {
-    display: inline-block;
-    float: left;
-}
-
-.follow>ul {
-    padding-left: 70px;
-}
-
-.follow>ul>li {
-    display: inline-block;
-    text-decoration: none;
-    margin-right: 14px;
-}
-
-.nav {
-    display: inline-block;
-    margin-top: 15px;
-    margin-left: 473px;
-}
-
-nav>li {
-    display: inline-block;
-    margin-right: 40px;
-}
-
-.find {
-    display: inline-block;
-    margin-left: 170px;
-}
-
-input {
-    border: none;
-}
-
-.submit {
-    cursor: pointer;
+form{
+	display: inline-block;
+	margin-left: 1570px;
+	}
+.submit{
+	border: none;
+	border-left: 1px solid grey;
+	cursor: pointer;
     background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
-    width: 50px;
-    border-left: solid 1px black;
-    padding-left: 10px;
+	width: 40px;
+	height: 20px;
+}
+.text{
+	border: none;
 }
 
-section>img {
-    margin-top: 218px;
-    position: absolute;
-    height: 690px;
-}
+/* ------image style----- */
+div>img{width: 1920px;
+	height: 690px;}
+
+
+
