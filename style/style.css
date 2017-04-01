@@ -1,0 +1,92 @@
+.container {
+    width: 1920px;
+    margin: auto;
+    position: relative;
+}
+
+.bologna {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 840px;
+    top: 65.5px;
+    display: inline-block;
+}
+
+.underlogo {
+    font-size: 12px;
+    font-family: "QuattrocentoSans";
+    color: rgb(204, 204, 204);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 3;
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    left: 840px;
+    top: 100px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 9.9px 0.1px rgba(206, 206, 206, 0.32);
+    position: absolute;
+    top: 139px;
+    width: 1920px;
+    height: 80px;
+    margin-top: 30px;
+    padding-top: 35px
+}
+
+.follow {
+    display: inline-block;
+    float: left;
+}
+
+.follow>ul {
+    padding-left: 70px;
+}
+
+.follow>ul>li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 14px;
+}
+
+.nav {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 473px;
+}
+
+nav>li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.find {
+    display: inline-block;
+    margin-left: 170px;
+}
+
+input {
+    border: none;
+}
+
+.submit {
+    cursor: pointer;
+    background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+    width: 50px;
+    border-left: solid 1px black;
+    padding-left: 10px;
+}
+
+section>img {
+    margin-top: 218px;
+    position: absolute;
+    height: 690px;
+}
