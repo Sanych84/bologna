@@ -1,6 +1,9 @@
+body{
+	margin: 0;
+}
 .container{
 	margin: auto;
-	width: 1260px;
+	width: 1270px;
 	position: relative;
 	
 }
@@ -14,49 +17,53 @@
 	margin-top: 65px;
 }
 .underlogo{
-	width: 230px;
 	height: 8px;
 	font-family: QuattrocentoSans;
 	color: #cdcdcd;
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 36px;
-	transform: scale(1.001,1);
 	text-transform: uppercase;
 }
-.navigation{
-margin-top: 130px;
-	position: absolute;
-	z-index: 2;
-	margin-left: 320px;
-	}
-.navigation li{
-	display: inline-block;
-		margin-left: 20px;
-}
-
 /* ------all refs-------- */
 a{text-decoration: none;}
 /* --------- navigation style--------- */
 .bg{
 	margin-top: 100px;
-	width: 1920px;
 	height: 80px;
 	background-color: #ffffff;
 	box-shadow: 1px 3px 9.9px 0.1px rgba(206, 206, 206, 0.32);
 	position: relative;
-	min-width: 1260px;
-	padding-top: 15px;
+	min-width: 1270px;
+	padding-top: 30px;
+	box-sizing: border-box;
 	}
-.follow li{ 
-	display: inline-block;
-	margin-left: 20px;
+.follow {
 	float: left;
 }
-form{
+.follow ul{
+	margin: 0 0 0 55px;
+	padding: 0;
+}
+.follow li{
+	list-style-type: none;
+	margin-left: 15px;
 	display: inline-block;
-	margin-left: 1570px;
-	}
+}
+.navigation{
+	list-style-type: none;
+	float: left;
+	margin: 0 0 0 533px;
+	padding-left: 0px;
+}
+.navigation li{
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 35px;
+}
+form{
+	margin-left: 1600px;
+}
 .submit{
 	border: none;
 	border-left: 1px solid grey;
@@ -68,10 +75,10 @@ form{
 .text{
 	border: none;
 }
-
 /* ------image style----- */
-div>img{width: 1920px;
-	height: 690px;}
+div>img{
+	height: 690px;
+}
 
 
 
